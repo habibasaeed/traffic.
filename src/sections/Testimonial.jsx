@@ -5,7 +5,7 @@ export default function TestimonialSection() {
       <h3 className="text-sm font-semibold text-black uppercase tracking-widest text-center">
         Testimonial
       </h3>
-      <h2 className="text-5xl font-extrabold sm:text-4xl mt-4 text-center tracking-tighter">
+      <h2 className="text-3xl md:text-5xl font-extrabold sm:text-4xl mt-4 text-center tracking-tighter">
         What Our Users Say About Us?
       </h2>
 
@@ -16,7 +16,7 @@ export default function TestimonialSection() {
             <img
               src={fifth} // Update with actual user image path
               alt="User"
-              className="object-cover md:h-96"
+              className="object-cover md:h-96 max-w-sm lg:max-w-full"
             />
           </div>
         </div>

@@ -51,7 +51,7 @@ export default function HeroSection() {
       </div>
 
       {/* ---------- phone mock-up image ---------- */}
-      <div className="relative mx-auto max-w-xs sm:max-w-sm lg:max-w-full">
+      <div className="relative mx-auto max-w-md lg:max-w-full">
         <img src={first} alt="App screens" className=" " />
         <div className="pointer-events-none absolute -left-16 -top-16 h-[150%] w-[150%]" />
       </div>

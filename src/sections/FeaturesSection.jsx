@@ -26,11 +26,11 @@ export default function FeatureSection() {
   ];
 
   return (
-    <section id="features" className="section-space space-y-16">
+    <section id="features" className="section-space space-y-16 mt-16">
       <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
         {/* Image */}
-        <div className="relative mx-28 ">
-          <img src={second} alt="" className="w-full " />
+        <div className="relative mx-28 order-last md:order-1 ">
+          <img src={second} alt="" className="w-full max-w-md lg:max-w-full" />
           <div className="pointer-events-none absolute -left-14 -top-14 h-[130%] w-[130%] " />
         </div>
 

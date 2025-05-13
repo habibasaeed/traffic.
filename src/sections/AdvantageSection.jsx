@@ -50,17 +50,17 @@ export default function AdvantageSection() {
             <img
               src={third}
               alt="Traffic monitoring"
-              className=" max-w-md rounded-full"
+              className=" max-w-sm  lg:max-w-full"
             />
           </div>
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
-        <div className="flex justify-center">
+        <div className="flex justify-center order-last md:order-1">
           <img
             src={forth}
             alt="Traffic monitoring"
-            className="w-full max-w-md"
+            className="w-full max-w-sm lg:max-w-full"
           />
         </div>
         <div className="mt-6 space-y-6">
